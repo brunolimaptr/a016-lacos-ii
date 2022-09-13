@@ -1,10 +1,22 @@
 const maioresPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"];
+let numero = 1
 
 for(let i of maioresPaises){
+    numero++
+    console.log(`${numero-1} - ${i}`)
     
-    console.log(`1 - ${maioresPaises[0]}
-2 - ${maioresPaises[1]}
-3 - ${maioresPaises[2]}
-4 - ${maioresPaises[3]}
-5 - ${maioresPaises[4]}`)
 }
+  
+    
+
+
+
+
+// for(let i in maioresPaises){
+//     let numero = `${(Number(i)+1)} - `
+    
+//     for(let j of maioresPaises[i]){
+//         numero += j
+//     }
+// console.log(numero)
+// }
